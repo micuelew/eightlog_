@@ -1,0 +1,138 @@
+  @font-face {
+    src:  url(font/FuturaPTMediumOblique.otf);
+    font-family: uno;
+
+  }
+
+  @font-face {
+    src:  url(font/DIMIS___.TTF);
+    font-family: due;
+  }
+
+
+
+.raccoglitore {
+  font-family: uno;
+  font-size: 19px;
+  display: grid;
+  grid-template-columns: 0.5fr 1fr 1fr 0.5fr;
+  grid-template-rows: 0.5fr 1.5fr 2fr 0.5fr;
+  grid-template-areas:
+    "cia log log nul"
+    "sdb ars ars pub"
+    "plu arh arh pub"
+    "foo foo foo foo";
+}
+
+.error {
+    grid-area: ars;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+
+.error h1 {
+}
+
+.error a {  
+}
+
+
+
+/*logo eightlog*/
+.logo {
+  font-family: due;
+  grid-area: log;
+}
+
+.logo_blog {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo_blog h1 {
+  padding-top: 10px;
+ font-size: 60px;
+ text-decoration: none;
+ color: rgb(92, 121, 8);
+}
+
+.footer {
+  background-color: rgb(121, 148, 86);
+  height: 200px;
+  width: 100%;
+  color: white;
+  grid-area: foo;
+}
+.contenuto-footer {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.contenuto-footer h3 {
+  font-size: 1.8rem;
+  font-weight: 100;
+  text-transform: capitalize;
+  line-height: 20px;
+}
+
+.contenuto-footer p {
+  margin: 0;
+  line-height: 28px;
+  font-size: 14px;
+  max-width: auto;
+}
+
+.social {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1re 0 3rem 0;
+  padding: 0;
+}
+
+.social li {
+  margin: 0 10px;
+}
+
+.social a {
+  text-decoration: none;
+  color: white;
+}
+
+.social a i {
+  font-size: 1.1rem;
+  transition: 0.4 ease;
+}
+
+.social a:hover {
+  color: rgb(121, 148, 86);
+}
+
+.footer-sotto {
+  background: rgb(121, 148, 86);
+  width: 100%;
+
+  padding: 0 0;
+  text-align: center;
+}
+
+.footer-sotto p {
+  font-size: 14px;
+  word-spacing: 2px;
+  text-transform: capitalize;
+  margin: 0 10px;
+}
+
+.footer-sotto span {
+  opacity: 0.4;
+  font-weight: 200;
+}
