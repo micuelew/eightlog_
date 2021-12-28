@@ -454,8 +454,11 @@
   grid-area: ars2;
   text-align: left;
 
-
 }
+ .Text_Articolo_2 p {
+  display: none;
+}
+  
 
 .Text_Articolo_2_2 h3 {
   padding-top: 60px;
