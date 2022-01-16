@@ -105,6 +105,15 @@
   opacity: 1;
 }
 
+
+
+.pubb {
+     display: flex; 
+    grid-area:cos1;
+}
+
+
+
 /*ARTICOLO*/
 
 
