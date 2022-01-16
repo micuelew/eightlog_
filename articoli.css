@@ -22,8 +22,8 @@
   grid-template-rows: auto;
   grid-template-areas:
     "sid log cos"
-    "cia tit cos"
-    "cia art cos"
+    "cia tit cos1"
+    "cia art cos1"
     "foo foo foo";
 }
 
